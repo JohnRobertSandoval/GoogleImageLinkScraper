@@ -27,8 +27,8 @@ def search():
     try:
         global searchTerm
         global startIndex 
-        key = 'AIzaSyBIO9foiDrn4olZOxNUVkxZa_Nn-dOdqcE'
-        cx = '016277424432716299247:r4fimetwj_w'
+        key = '[Google Console Key]'
+        cx = '[CSE ID]'
         searchUrl = "https://www.googleapis.com/customsearch/v1?q=" + \
             searchTerm + "&start=" + startIndex + "&key=" + key + "&cx=" + cx + \
             "&searchType=image"
